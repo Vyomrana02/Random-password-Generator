@@ -21,6 +21,7 @@ document.querySelector("#generate").addEventListener('click', () => {
             randSelector.push(i);
         }
           // console.log(randSelector[6]);
+          
     }
     if (numbers === true) {
         for (let i = UNInum[0]; i <= UNInum[1]; i++) {
