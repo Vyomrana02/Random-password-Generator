@@ -14,8 +14,7 @@ body {
 	color: royalblue;
 
 }
-/*main heading*/
-    .main-heading{
+.main-heading{
     	position: absolute;
     	top: 20px;
     	left: 40%;
@@ -26,7 +25,7 @@ box-shadow:  -20px 20px 60px #cfd1d2,
              20px -20px 60px #ffffff;
     }
 
-/*centring main body*/
+
 .settings {
     height: 50vh;
     display: flex;
@@ -35,13 +34,12 @@ box-shadow:  -20px 20px 60px #cfd1d2,
     align-items: center;
 }
 
-/*main button styling*/
+
 .btn-main {
     position: absolute;
     padding: 25px 35px;
     border: 0;
     font-family: 'Montserrat';
-    /* font-weight: 400;*/
     font-size: 1.1em;
     border-radius: 20px;
     background: #ebf0f2;
@@ -51,7 +49,7 @@ box-shadow:  -20px 20px 60px #cfd1d2,
     top: 85%;
 }
 
-/*setting styling*/
+
 .container {
     height: 400px;
     width: 500px;
@@ -65,13 +63,13 @@ box-shadow:  -20px 20px 60px #cfd1d2,
 
 }
 
-/*input checkbox spacing*/
+
 input[type=checkbox] {
     position: absolute;
     left: 80%;
 }
 
-/*result container styling*/
+
 .result-container {
     background-color: rgba(0, 0, 0, 0.2);
     display: flex;
@@ -88,13 +86,13 @@ input[type=checkbox] {
     width: 80%;
 }
 
-/*final result text break*/
+
 .result-container #result {
     word-wrap: break-word;
     max-width: calc(100% - 40px);
 }
 
-/*clipboard butto styling*/
+
 #clipboard {
     border-radius: 50px;
     background: #f4f6f7;
